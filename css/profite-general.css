@@ -1,0 +1,376 @@
+/* CSS Reset */
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration: none;
+	vertical-align:baseline;
+}
+
+/* General */
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+}
+
+body a {
+	color: #181818;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* header */
+header {
+	height: 125px;
+	padding: 20px;
+}
+
+header h1 {
+	float: left;
+}
+
+#menu-header {
+	float: right;
+	margin: 55px 50px 0 0;
+}
+
+#menu-header ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+#menu-header ul li:last-child {
+	margin-right: 0;
+}
+
+#menu-header ul li a{
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 700;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 210px;
+}
+
+/* Banner */
+#highlight-home {
+	background: #f1bd00;
+	height: 350px;
+	width: 100%;
+}
+
+#highlight-home .content-title {
+	float: left;
+	padding: 55px;
+	text-transform: uppercase;
+	width: 345px;
+}
+
+#highlight-home .content-title p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 15px 0;
+}
+
+#highlight-home h2 {
+	color: #fff;
+	font-size: 85px;
+	font-weight: 700;
+	line-height: 65px;
+	text-shadow: 1px 2px 1px #cc8b00;
+}
+
+#highlight-home h2 .h2-small{
+	display: block;
+	font-size: 50px;
+}
+
+#highlight-home .content-images {
+	float: left;
+	padding: 30px 0;
+	width: 430px;
+}
+
+#highlight-home .content-images img {
+	border: 10px solid #fff;
+	float: left;
+}
+
+#highlight-home .content-images img.banner-img-dog {
+	float: left;
+	margin: 90px 0 9px;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	
+}
+
+#highlight-home .content-images img.banner-img-felipe {
+	float: right;
+	margin-right: 20px;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+#highlight-home .content-images img.banner-equipe-trabalhando-1 {
+	float: left;
+	margin: 5px 0 0;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	
+}
+
+#highlight-home .content-images img.banner-equipe-trabalhando-2 {
+	float: right;
+	margin: 50px 20px 0 0;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+#highlight-home .content-images img.banner-img-equipe-profite {
+	float: right;
+	margin: 20px 5px 0 0;
+}
+
+#highlight-home .slick-dots {
+	right: 15px;
+	top: 110px;
+}
+
+#highlight-home .slick-dots li button {
+	background: linear-gradient(to bottom, #fff, #c6c4bd);
+	border-radius: 50%;
+	box-shadow: 0px 2px 1px #9f7d00;
+	display: block;
+	height: 16px;
+	margin: 15px 0;
+	text-indent: -999em;
+	width: 16px;
+}
+
+#highlight-home .slick-dots li.slick-active button {
+	background: linear-gradient(to bottom, #919291, #c6c4bd);
+	box-shadow: 0px 2px 1px #fff;
+	border-top: 2px solid #383938;
+}
+
+/* Prateleiras */
+.shelf {
+	color: #181818;
+	margin: 35px 0;
+	overflow: hidden;
+}
+
+.shelf ul li {
+	border-right: 1px solid #e1e1e1;
+	float: left;
+	padding: 25px 35px;
+	text-align: center;
+	width: 169px;
+}
+
+.shelf ul li h1 {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.shelf ul li:last-child {
+	border-right: none;
+}
+
+.shelf ul li:hover {
+	background: #f3f3f3;
+}
+
+.ranking-product {
+	background: url("../images/profite-sprite.png") no-repeat;
+	display: block;
+	height: 17px;
+	margin: 10px auto;
+	width: 106px;
+}
+
+.ranking-product4-5 {
+	background-position: 0 -30px;
+}
+
+.ranking-product4 {
+	background-position: 0 -60px;
+}
+
+.ranking-product3-5 {
+	background-position: 0 -90px;
+}
+
+.ranking-product3 {
+	background-position: 0 -120px;
+}
+
+.ranking-product2-5 {
+	background-position: 0 -150px;
+}
+
+.ranking-product2 {
+	background-position: 0 -180px;
+}
+
+.ranking-product1-5 {
+	background-position: 0 -210px;
+}
+
+.ranking-product1 {
+	background-position: 0 -240px;
+}
+
+.ranking-product0-5 {
+	background-position: 0 -270px;
+}
+
+.ranking-product0 {
+	background-position: 0 -300px;
+}
+
+.content-price {
+	line-height: 20px;
+}
+
+.content-price .old-price {
+	color: #717171;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 12px;
+	text-decoration: line-through;
+}
+
+.button-buy {
+	background: url("../images/profite-sprite.png") no-repeat -170px 8px,
+	linear-gradient(to bottom, #202020, #121212);
+	box-shadow: inset 0px 0px 0px 2px #3b3b3b;			
+	color: #fff;
+	display: block;
+	font-family: 'PT Sans Caption', sans-serif;
+	height: 30px;
+	line-height: 31px;
+	margin: 10px auto;
+	padding-left: 15px;
+	text-transform: uppercase;
+	width: 105px;
+}
+
+.price-economy {
+	border: 1px solid #c5c5c5;
+	display: inline-block;
+	font-size: 10px;
+	line-height: 21px;
+	padding: 0 15px;
+}
+
+/* Footer */
+footer {
+	background: url("../images/profite-background-footer.jpg") repeat;
+	height: 150px;
+	margin: 0;
+	padding-top: 55px;
+	width: 100%;
+}
+
+footer #container-footer {
+	margin: 0 auto;
+	width: 960px;
+}
+
+footer address {
+	color: #606262;
+	float: left;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 25px;
+	margin-left: 80px;
+}
+
+footer address b {
+	color: #000;
+}
+
+footer address .state-address {
+	float: left;
+}
+
+footer address .state-address .state-address-content{
+	background: linear-gradient(to bottom, #ffca00, #e89a00);
+	border-radius: 3px 0 0 3px;
+	color: #000;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 8px 6px 5px 12px;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+footer address .state-address-arrow {
+	background: url("../images/profite-sprite.png") no-repeat 0 -330px;
+	float: left;
+	height: 38px;
+	width: 15px;
+}
+
+footer address .container-address {
+	float: left;
+	margin-right: 40px;
+}
+
+footer address .container-address:last-child {
+	margin-right: 0;
+}
+
+footer address .details-address {
+	float: left;
+	margin-left: 10px;
+}
+
+footer #menu-footer {
+	float: left;
+	margin-left: 80px;
+}
+
+footer #menu-footer ul li a {
+	border-radius: 3px;
+	display: block;
+	height: 40px;
+	font-family: 'PT Sans Caption', sans-serif;
+	letter-spacing: -1px;
+	margin-bottom:10px;
+	padding-left: 45px;
+	text-transform: uppercase;
+	width: 135px;
+}
+
+footer #menu-footer ul li.contact a {
+	background: url("../images/profite-sprite.png") no-repeat -165px -22px,
+	linear-gradient(to bottom, #ffca00, #e89a00);
+	line-height: 40px;
+}
+
+footer #menu-footer ul li.treatment-online a {
+	background: url("../images/profite-sprite.png") no-repeat -165px -60px,
+	linear-gradient(to bottom, #ffca00, #e89a00);
+	height: 35px;
+	padding-top: 5px;
+}
